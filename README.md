@@ -52,7 +52,7 @@ The Autocomplete is minimal implementation, there are a lot of stuff missing to 
 
 Not much is being done to handle errors due to time limit.
 
-## Going for production
+## Going to production
 
 Before going to production there are a few stuff need to be changed/added/discussed to improve the performance, here i list of several things
 
