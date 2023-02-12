@@ -1,0 +1,33 @@
+.searchResultContainer {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 0;
+  background-color: var(--color-slate-800);
+  width: 100%;
+  border-radius: var(--border-radius);
+  padding: 8px 0;
+}
+
+.item:last-of-type {
+  padding-bottom: 0;
+}
+
+.item:first-of-type {
+  padding-top: 0;
+}
+.item:not(:last-of-type) {
+  border-bottom: 1px solid var(--color-slate-700);
+}
+
+.item:hover {
+  background-color: var(--color-slate-700);
+}
+
+.itemLink {
+  display: block;
+  padding: 4px 20px;
+}
+.itemLink {
+  color: var(--color-slate-50);
+  text-decoration: none;
+}

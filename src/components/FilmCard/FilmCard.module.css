@@ -1,0 +1,21 @@
+.cardContainer {
+  padding: 8px;
+  width: 300px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background-color: var(--color-slate-800);
+}
+
+.cardContainer .title {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+.cardContainer .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

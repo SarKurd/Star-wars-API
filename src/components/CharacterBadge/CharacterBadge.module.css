@@ -1,0 +1,5 @@
+.characterBadge {
+  padding: 2px 4px;
+  background-color: var(--color-slate-700);
+  color: var(--color-slate-400);
+}
