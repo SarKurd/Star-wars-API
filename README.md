@@ -71,7 +71,7 @@ Before going to production there are a few stuff need to be changed/added/discus
 - Typescript: There are many good reasons for it, two biggest ones for me are Static Typing and Intellisense.
 - React Query(RQ): it's an amazing tool for managing network state, it provides many useful functionality that are quite challenging to implement.
   - I have considered Redux toolkit but I think RQ is simpler and does it's job quite well and i have used RQ at scale so i'm quite familiar with it.
-    React Router (RR): The routing library, not much can be said, as of now it's one of the most well known libraries out there.
+- React Router (RR): The routing library, not much can be said, as of now it's one of the most well known libraries out there.
 - CSS Modules + PostCSS(not used in this project since it's quite small): CSS Modules for css scoping and PostCss for extra functionalities.
   - I have considered other tools like Sass and Tailwind but i have no experience with Tailwind and i believe PostCSS is way better than Sass since you have more control over what you need so much faster.
 - No styled UI library used: I believe headless UI library are much better and provide more control to style the components to match your brand which is very nice.
