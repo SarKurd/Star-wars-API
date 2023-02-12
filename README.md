@@ -52,6 +52,19 @@ The Autocomplete is minimal implementation, there are a lot of stuff missing to 
 
 Not much is being done to handle errors due to time limit.
 
+## Going for production
+
+Before going to production there are a few stuff need to be changed/added/discussed to improve the performance, here i list of several things
+
+- Code splitting to reduce the amount of data is send to the client per request.
+- Transpilation: Browsers that we need to target.
+- Minification: To reduce bundle size.
+- Preload/prefetch data.
+- Optimize custom fonts.
+- Lazy loading assets.
+- Virtualization for the list of items.
+- Rendering mechanism (Server side rendering, Client side rendering). Consider using a framework like Next.js or Remix.
+
 ## Tools used in this project:
 
 - React: React is a popular UI library for building UI applications, it has a large community and was part of the assignment requirements.
