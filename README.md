@@ -15,6 +15,7 @@ npm run dev
 ```
 
 3- Open the app
+
 Go to http://localhost:5173
 
 ## Project structure
