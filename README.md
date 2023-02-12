@@ -63,7 +63,7 @@ Before going to production there are a few stuff need to be changed/added/discus
 - Optimize custom fonts.
 - Lazy loading assets.
 - Virtualization for the list of items.
-- Rendering mechanism (Server side rendering, Client side rendering). Consider using a framework like Next.js or Remix.
+- Rendering mechanism (Server side rendering, Client side rendering). Consider maybe using a framework like Next.js or Remix.
 
 ## Tools used in this project:
 
